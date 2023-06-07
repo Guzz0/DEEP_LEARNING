@@ -1,2 +1,3 @@
 # DEEP_LEARNING
- Practica DL aplicando modelos para predecir precios de propiedades de airbnb utlizando datos Categoricos, Numericos e Imagenes.
+
+Desarrollo de un modelo de aprendizaje profundo para predecir valores a partir de características de imágenes y datos numéricos/categóricos. Usé el MinMaxScaler para normalizar los datos y dividí el dataset en conjuntos de entrenamiento, validación y prueba. El modelo consiste en una red neuronal con varias capas densas y una capa de dropout para regularización. Entrené el modelo durante 40 épocas y evalué su rendimiento en términos de pérdida MSE en el conjunto de prueba. También calculé el error medio y desplegué comparaciones de valores reales versus predichos. A pesar de cierta variación, el modelo demostró ser eficiente en su propósito.
